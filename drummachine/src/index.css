@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+#root {
+  position: relative;
+  background: #ffffff;
+  font-family: "Roboto Slab";
+}
+
+#console {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background: #2b3252;
+}
+
+#drum-machine {
+
+  background: #ef5455;
+  width:100%;
+  margin: auto;
+}
+
+#display { 
+  background: #fad744;
+}
+
+#sound{
+  margin: auto;
+}
